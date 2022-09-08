@@ -1,0 +1,116 @@
+/*Color Theme
+dark grey 262626
+light grey: A6A6A6
+Teal: 01E6FA
+Orange: FA7B00
+White: FFFFFF*/
+
+img {
+    width: 400px;
+}
+
+header {
+    text-align: center;
+    padding: 5%;
+    color: white;
+    background-color: #3b3b3b;
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-top-color: #01E6FA;
+}
+
+a {
+    background-color: #eb7500;
+    color: white;
+    padding: 1%;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+h2 {
+    font-size: 300%;
+    text-decoration: underline;
+    text-decoration-color: #01E6FA;
+}
+
+h3 {
+    font-size: 200%;
+}
+
+p {
+    font-size: larger;
+}
+
+.featured-projects {
+    margin-bottom: 2%;
+}
+
+.eurofed {
+    text-align: center;
+    padding: 2%;
+}
+
+.eurofed img {
+    float: right;
+    padding: 2%;
+}
+
+.reggies {
+    text-align: center;
+    padding: 2%;
+}
+
+.reggies img {
+    float: left;
+    padding: 2%;
+}
+
+.work {
+    padding: 2%;
+    background-color: #92eaf1;
+    margin-bottom: 2%;
+    color: black;
+}
+
+.work h2 {
+    text-decoration: underline;
+    text-decoration-color: #eb7500;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 1%;
+}
+
+.education {
+    margin-bottom: 2%;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-align: center
+}
+
+.footer {
+    padding: 2%;
+    background-color: #3b3b3b;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #01E6FA;
+}
+
+.footer h2 {
+    color: white;
+}
