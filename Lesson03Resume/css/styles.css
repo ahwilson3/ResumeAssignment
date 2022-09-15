@@ -5,8 +5,17 @@ Teal: 01E6FA
 Orange: FA7B00
 White: FFFFFF*/
 
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 img {
-    width: 400px;
+    width: 350px;
+}
+
+h1 {
+    font-size: 500%;
+    text-shadow: 4px 4px #eb7500;
 }
 
 header {
@@ -27,10 +36,6 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 500%;
-}
-
 h2 {
     font-size: 300%;
     text-decoration: underline;
@@ -43,28 +48,30 @@ h3 {
 
 p {
     font-size: larger;
+    line-height: 140%;
 }
 
 .featured-projects {
     margin-bottom: 2%;
+   
 }
 
-.eurofed {
+.k20 {
     text-align: center;
     padding: 2%;
 }
 
-.eurofed img {
+.k20 img {
     float: right;
     padding: 2%;
 }
 
-.reggies {
+.noble {
     text-align: center;
     padding: 2%;
 }
 
-.reggies img {
+.noble img {
     float: left;
     padding: 2%;
 }
@@ -90,17 +97,12 @@ p {
     padding: 1%;
 }
 
+li {
+    line-height: 140%;
+}
+
 .education {
     margin-bottom: 2%;
-}
-
-ul {
-    text-align: center;
-}
-
-li {
-    display: inline;
-    text-align: center
 }
 
 .footer {
@@ -110,6 +112,16 @@ li {
     border-bottom-width: 20px;
     border-bottom-color: #01E6FA;
 }
+
+.footer li {
+    display: inline;
+    text-align: center;
+}
+
+.footer ul {
+    text-align: center;
+}
+
 
 .footer h2 {
     color: white;
